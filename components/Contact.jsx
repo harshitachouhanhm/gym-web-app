@@ -52,8 +52,8 @@ const Contact = () => {
             <Button title="Start a call" href="tel:+92" />
           </div>
         </form>
-        <div className="flex flex-row items-center w-full md:w-2/4 my-5">
-          <iframe
+        {/* <div className="flex flex-row items-center w-full md:w-2/4 my-5"> */}
+          {/* <iframe
             title="Location"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d108915.64214412407!2d74.19009261029682!3d31.452296963075824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391901246c16dbad%3A0x9fb71f55f2cb6a59!2sLevels%20gym!5e0!3m2!1sen!2s!4v1709278409350!5m2!1sen!2s"
             width="500"
@@ -61,8 +61,8 @@ const Contact = () => {
             style={{ border: 0 }}
             allowFullScreen=""
             loading="lazy"
-          ></iframe>
-        </div>
+          ></iframe> */}
+        {/* </div> */}
       </div>
     </div>
   );

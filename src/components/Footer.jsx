@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import { Link } from "react-scroll";
 import { AiTwotonePhone } from "react-icons/ai";
 import { AiOutlineMail } from "react-icons/ai";
@@ -12,7 +12,7 @@ const Footer = () => {
         <div className="w-full md:w-1/4">
           <Link to="/">
             <h1 className="font-semibold text-2xl text-brightRed">
-              Level Gyms
+              FlexFit Gym
             </h1>
           </Link>
           <p className="mt-4">
@@ -22,7 +22,7 @@ const Footer = () => {
         <div className="mt-8 md:mt-0 md:ml-8">
           <h1 className="font-medium text-xl text-brightRed">Address</h1>
           <p className="mt-4">
-            Plot 339 Block R2 Johar Town Lahore, 54000 Pakistan
+            Block - 20 cp1, Bhopal, MP
           </p>
         </div>
         <div className="mt-8 md:mt-0 md:ml-8">
@@ -40,7 +40,7 @@ const Footer = () => {
           </div>
           <div className="flex flex-row items-center mt-2">
             <AiOutlineMail size={20} color="red" />
-            <p className="ml-2">levelszone@gmail.com</p>
+            <p className="ml-2">FlexFitGym@gmail.com</p>
           </div>
         </div>
       </div>
