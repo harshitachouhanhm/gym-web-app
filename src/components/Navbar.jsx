@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import react, { useState, useEffect } from "react";
 import { Link } from "react-scroll";
 import { AiOutlineMenuUnfold } from "react-icons/ai";
 
